@@ -6,44 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Gallery</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css" />
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            justify-content: center;
-        }
-
-        .gallery-item {
-            flex-basis: calc((100% - 48px) / 3);
-        }
-
-        .gallery-link {
-            display: block;
-            text-decoration: none;
-        }
-
-        .gallery-image {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-image:hover {
-            transform: scale(1.03);
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -51,7 +14,7 @@
     <ul class="gallery"></ul>
 
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
-    <script src="gallery.js"></script>
+    <script src="./js/gallery.js"></script>
 </body>
 
 </html>
